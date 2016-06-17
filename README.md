@@ -18,7 +18,7 @@ Viele der Befehle gehören zu den sogenannten "Plumbing-Commands" die im täglic
     $ mkdir .git/refs/heads
     
     # tell git on which the branch the repos is
-    $ echo "ref: refs/heads/MyMaster
+    $ echo "ref: refs/heads/MyMaster"
 
 Ein `git status` erkennt nun bereits an der erstellten Struktur ein git Repository. Weiter geht es mit dem Befüllen des Repositories.
 
