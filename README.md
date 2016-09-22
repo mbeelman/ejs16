@@ -40,7 +40,7 @@ Ein `git status` erkennt nun bereits an der erstellten Struktur ein git Reposito
     Hello enterJS!
     
     # now assing a filename to the blob via the staging area
-    $ git update-index --add --cacheinfo 100644,9c549bff452686ca42e444962efccdc54c5c54df,readme.txt
+    $ git update-index --add --cacheinfo 100644 9c549bff452686ca42e444962efccdc54c5c54df readme.txt
     
     # write the tree object with the content of the staging area
     $ git write-tree
